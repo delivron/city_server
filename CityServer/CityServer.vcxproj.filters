@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\generator_data">
+      <UniqueIdentifier>{0b27208d-f446-4c21-aab3-1813277ccd91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\generator_data\roof_resets">
+      <UniqueIdentifier>{fc3a1d50-fdc6-4e6a-93a8-2f59ff0ca8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\generator_data\area_presets">
+      <UniqueIdentifier>{2e3104b5-1563-49fd-9242-2f564e21ecd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\util">
+      <UniqueIdentifier>{8aa3026c-96d5-4342-a53e-0974292a2ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\util">
+      <UniqueIdentifier>{7f161c90-42ce-444e-981a-92a627bb562b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\obj">
+      <UniqueIdentifier>{e82384fe-eb7e-403b-bbc6-2b269ccb304c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\obj">
+      <UniqueIdentifier>{aa2a19ee-96bd-4c2b-b405-29e7ae36d4c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\gen">
+      <UniqueIdentifier>{ee61c218-8f8f-4642-bf87-70cf39052cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\gen">
+      <UniqueIdentifier>{d8fa52c1-2d59-45f5-aff4-f671aef2bbd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\net">
+      <UniqueIdentifier>{957b3e37-1487-4898-91fc-b0f3b2081819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\net">
+      <UniqueIdentifier>{20cd5d75-15a2-4ea9-99b4-8d3ce68ddc19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\icon">
+      <UniqueIdentifier>{8509087a-9125-43bb-825b-83698f07efa6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="settings.xml">
+      <Filter>Файлы ресурсов</Filter>
+    </Xml>
+    <Xml Include="generator_data\bounding_boxes.xml">
+      <Filter>Файлы ресурсов\generator_data</Filter>
+    </Xml>
+    <Xml Include="generator_data\cars.xml">
+      <Filter>Файлы ресурсов\generator_data</Filter>
+    </Xml>
+    <Xml Include="generator_data\demo_scene.xml">
+      <Filter>Файлы ресурсов\generator_data</Filter>
+    </Xml>
+    <Xml Include="generator_data\roofs.xml">
+      <Filter>Файлы ресурсов\generator_data</Filter>
+    </Xml>
+    <Xml Include="generator_data\variants_list.xml">
+      <Filter>Файлы ресурсов\generator_data</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\auto_service_prop.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\helipad.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_1.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_2.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_3.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_4.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_5.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_6.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_7.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_8.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_9.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_10.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_11.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_12.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_13.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_14.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_15.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\prop_and_pot_bush.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\sky_antenna_1.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\sky_antenna_2.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\sky_sm_antenna.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\sky_sm_chair.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\sky_sm_prop.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\sky_sm_solar.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\sky_solar_1.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\sky_solar_2.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\solar_panes.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\supermarket_prop_1.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\supermarket_prop_2.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\roof_presets\supermarket_prop_3.xml">
+      <Filter>Файлы ресурсов\generator_data\roof_resets</Filter>
+    </Xml>
+    <Xml Include="generator_data\area_presets\car_service.xml">
+      <Filter>Файлы ресурсов\generator_data\area_presets</Filter>
+    </Xml>
+    <Xml Include="generator_data\area_presets\houses.xml">
+      <Filter>Файлы ресурсов\generator_data\area_presets</Filter>
+    </Xml>
+    <Xml Include="generator_data\area_presets\industrial.xml">
+      <Filter>Файлы ресурсов\generator_data\area_presets</Filter>
+    </Xml>
+    <Xml Include="generator_data\area_presets\medicine.xml">
+      <Filter>Файлы ресурсов\generator_data\area_presets</Filter>
+    </Xml>
+    <Xml Include="generator_data\area_presets\park.xml">
+      <Filter>Файлы ресурсов\generator_data\area_presets</Filter>
+    </Xml>
+    <Xml Include="generator_data\area_presets\parking.xml">
+      <Filter>Файлы ресурсов\generator_data\area_presets</Filter>
+    </Xml>
+    <Xml Include="generator_data\area_presets\residential.xml">
+      <Filter>Файлы ресурсов\generator_data\area_presets</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="util\print_manager.cpp">
+      <Filter>Исходные файлы\util</Filter>
+    </ClCompile>
+    <ClCompile Include="obj\bounding_box.cpp">
+      <Filter>Исходные файлы\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="obj\server_object.cpp">
+      <Filter>Исходные файлы\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="obj\game_object.cpp">
+      <Filter>Исходные файлы\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="obj\chunk.cpp">
+      <Filter>Исходные файлы\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="obj\scene.cpp">
+      <Filter>Исходные файлы\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="obj\game_object_factory.cpp">
+      <Filter>Исходные файлы\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="gen\city_generator.cpp">
+      <Filter>Исходные файлы\gen</Filter>
+    </ClCompile>
+    <ClCompile Include="gen\city_settings.cpp">
+      <Filter>Исходные файлы\gen</Filter>
+    </ClCompile>
+    <ClCompile Include="net\net_settings.cpp">
+      <Filter>Исходные файлы\net</Filter>
+    </ClCompile>
+    <ClCompile Include="util\xml_tree.cpp">
+      <Filter>Исходные файлы\util</Filter>
+    </ClCompile>
+    <ClCompile Include="gen\generator_types.cpp">
+      <Filter>Исходные файлы\gen</Filter>
+    </ClCompile>
+    <ClCompile Include="net\server.cpp">
+      <Filter>Исходные файлы\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\server_warnings.cpp">
+      <Filter>Исходные файлы\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\client.cpp">
+      <Filter>Исходные файлы\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\data_buffer.cpp">
+      <Filter>Исходные файлы\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\request_manager.cpp">
+      <Filter>Исходные файлы\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\query_handler.cpp">
+      <Filter>Исходные файлы\net</Filter>
+    </ClCompile>
+    <ClCompile Include="gen\preset_description.cpp">
+      <Filter>Исходные файлы\gen</Filter>
+    </ClCompile>
+    <ClCompile Include="util\filesystem.cpp">
+      <Filter>Исходные файлы\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util\print_manager.h">
+      <Filter>Файлы заголовков\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\singleton.h">
+      <Filter>Файлы заголовков\util</Filter>
+    </ClInclude>
+    <ClInclude Include="obj\bounding_box.h">
+      <Filter>Файлы заголовков\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj\game_object.h">
+      <Filter>Файлы заголовков\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj\scene.h">
+      <Filter>Файлы заголовков\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj\chunk.h">
+      <Filter>Файлы заголовков\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj\server_object.h">
+      <Filter>Файлы заголовков\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj\object_factory.h">
+      <Filter>Файлы заголовков\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj\game_object_factory.h">
+      <Filter>Файлы заголовков\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="util\xml_tree.h">
+      <Filter>Файлы заголовков\util</Filter>
+    </ClInclude>
+    <ClInclude Include="gen\city_generator.h">
+      <Filter>Файлы заголовков\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="gen\road_generator.h">
+      <Filter>Файлы заголовков\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="obj\car_object.h">
+      <Filter>Файлы заголовков\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj\road_intersection.h">
+      <Filter>Файлы заголовков\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="gen\city_settings.h">
+      <Filter>Файлы заголовков\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="net\net_settings.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="gen\generator_resources.h">
+      <Filter>Файлы заголовков\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="gen\preset_description.h">
+      <Filter>Файлы заголовков\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="gen\generator_types.h">
+      <Filter>Файлы заголовков\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="net\server.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\server_warnings.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\client.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\net_types.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\data_buffer.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\header_description.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\request_manager.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\query_description.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\net_handler_interface.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\query_handler.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="util\to_vector.h">
+      <Filter>Файлы заголовков\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\filesystem.h">
+      <Filter>Файлы заголовков\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CityServer.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon\city_server.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

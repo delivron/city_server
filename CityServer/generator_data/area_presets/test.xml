@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Preset width="3" height="3">
+	<Object name="hello">
+		<Model variants="obj1 obj2 @list" />
+		<Transform>
+			<Translate x="-4.69999981" z="-3.77999997" />
+      <Rotate y="1 2 3 4" />
+		</Transform>
+	</Object>
+  
+  <Object depend="hello">
+	</Object>
+</Preset>

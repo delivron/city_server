@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{E6EB70F3-704A-4021-8640-E34DE2FA4C04}</ProjectGuid>
+    <RootNamespace>CityServer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Projects\Libraries\glm-0.9.9.0;D:\Projects\Libraries\boost_1_67_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;_WINSOCK_DEPRECATED_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=_WIN32_WINNT_WINXP;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>D:\Projects\Libraries\boost_1_67_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Projects\Libraries\glm-0.9.9.0;D:\Projects\Libraries\boost_1_67_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;_WINSOCK_DEPRECATED_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=_WIN32_WINNT_WINXP;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>D:\Projects\Libraries\boost_1_67_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Projects\Libraries\glm-0.9.9.0;D:\Projects\Libraries\boost_1_67_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;_WINSOCK_DEPRECATED_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=_WIN32_WINNT_WINXP;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>D:\Projects\Libraries\boost_1_67_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Projects\Libraries\glm-0.9.9.0;D:\Projects\Libraries\boost_1_67_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>_SILENCE_CXX17_ALLOCATOR_VOID_DEPRECATION_WARNING;_WINSOCK_DEPRECATED_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=_WIN32_WINNT_WINXP;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>D:\Projects\Libraries\boost_1_67_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="gen\city_generator.cpp" />
+    <ClCompile Include="gen\city_settings.cpp" />
+    <ClCompile Include="gen\generator_types.cpp" />
+    <ClCompile Include="gen\preset_description.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="net\client.cpp" />
+    <ClCompile Include="net\data_buffer.cpp" />
+    <ClCompile Include="net\net_settings.cpp" />
+    <ClCompile Include="net\query_handler.cpp" />
+    <ClCompile Include="net\request_manager.cpp" />
+    <ClCompile Include="net\server.cpp" />
+    <ClCompile Include="net\server_warnings.cpp" />
+    <ClCompile Include="obj\bounding_box.cpp" />
+    <ClCompile Include="obj\chunk.cpp" />
+    <ClCompile Include="obj\game_object.cpp" />
+    <ClCompile Include="obj\game_object_factory.cpp" />
+    <ClCompile Include="obj\scene.cpp" />
+    <ClCompile Include="obj\server_object.cpp" />
+    <ClCompile Include="util\filesystem.cpp" />
+    <ClCompile Include="util\print_manager.cpp" />
+    <ClCompile Include="util\xml_tree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="generator_data\area_presets\car_service.xml" />
+    <Xml Include="generator_data\area_presets\houses.xml" />
+    <Xml Include="generator_data\area_presets\industrial.xml" />
+    <Xml Include="generator_data\area_presets\medicine.xml" />
+    <Xml Include="generator_data\area_presets\park.xml" />
+    <Xml Include="generator_data\area_presets\parking.xml" />
+    <Xml Include="generator_data\area_presets\residential.xml" />
+    <Xml Include="generator_data\bounding_boxes.xml" />
+    <Xml Include="generator_data\cars.xml" />
+    <Xml Include="generator_data\demo_scene.xml" />
+    <Xml Include="generator_data\roofs.xml" />
+    <Xml Include="generator_data\roof_presets\auto_service_prop.xml" />
+    <Xml Include="generator_data\roof_presets\helipad.xml" />
+    <Xml Include="generator_data\roof_presets\prop_1.xml" />
+    <Xml Include="generator_data\roof_presets\prop_10.xml" />
+    <Xml Include="generator_data\roof_presets\prop_11.xml" />
+    <Xml Include="generator_data\roof_presets\prop_12.xml" />
+    <Xml Include="generator_data\roof_presets\prop_13.xml" />
+    <Xml Include="generator_data\roof_presets\prop_14.xml" />
+    <Xml Include="generator_data\roof_presets\prop_15.xml" />
+    <Xml Include="generator_data\roof_presets\prop_2.xml" />
+    <Xml Include="generator_data\roof_presets\prop_3.xml" />
+    <Xml Include="generator_data\roof_presets\prop_4.xml" />
+    <Xml Include="generator_data\roof_presets\prop_5.xml" />
+    <Xml Include="generator_data\roof_presets\prop_6.xml" />
+    <Xml Include="generator_data\roof_presets\prop_7.xml" />
+    <Xml Include="generator_data\roof_presets\prop_8.xml" />
+    <Xml Include="generator_data\roof_presets\prop_9.xml" />
+    <Xml Include="generator_data\roof_presets\prop_and_pot_bush.xml" />
+    <Xml Include="generator_data\roof_presets\sky_antenna_1.xml" />
+    <Xml Include="generator_data\roof_presets\sky_antenna_2.xml" />
+    <Xml Include="generator_data\roof_presets\sky_sm_antenna.xml" />
+    <Xml Include="generator_data\roof_presets\sky_sm_chair.xml" />
+    <Xml Include="generator_data\roof_presets\sky_sm_prop.xml" />
+    <Xml Include="generator_data\roof_presets\sky_sm_solar.xml" />
+    <Xml Include="generator_data\roof_presets\sky_solar_1.xml" />
+    <Xml Include="generator_data\roof_presets\sky_solar_2.xml" />
+    <Xml Include="generator_data\roof_presets\solar_panes.xml" />
+    <Xml Include="generator_data\roof_presets\supermarket_prop_1.xml" />
+    <Xml Include="generator_data\roof_presets\supermarket_prop_2.xml" />
+    <Xml Include="generator_data\roof_presets\supermarket_prop_3.xml" />
+    <Xml Include="generator_data\variants_list.xml" />
+    <Xml Include="settings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gen\city_generator.h" />
+    <ClInclude Include="gen\city_settings.h" />
+    <ClInclude Include="gen\generator_resources.h" />
+    <ClInclude Include="gen\generator_types.h" />
+    <ClInclude Include="gen\preset_description.h" />
+    <ClInclude Include="gen\road_generator.h" />
+    <ClInclude Include="net\client.h" />
+    <ClInclude Include="net\data_buffer.h" />
+    <ClInclude Include="net\net_handler_interface.h" />
+    <ClInclude Include="net\net_settings.h" />
+    <ClInclude Include="net\header_description.h" />
+    <ClInclude Include="net\query_description.h" />
+    <ClInclude Include="net\query_handler.h" />
+    <ClInclude Include="net\request_manager.h" />
+    <ClInclude Include="net\server.h" />
+    <ClInclude Include="net\net_types.h" />
+    <ClInclude Include="net\server_warnings.h" />
+    <ClInclude Include="obj\bounding_box.h" />
+    <ClInclude Include="obj\car_object.h" />
+    <ClInclude Include="obj\chunk.h" />
+    <ClInclude Include="obj\game_object_factory.h" />
+    <ClInclude Include="obj\object_factory.h" />
+    <ClInclude Include="obj\game_object.h" />
+    <ClInclude Include="obj\road_intersection.h" />
+    <ClInclude Include="obj\scene.h" />
+    <ClInclude Include="obj\server_object.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="util\filesystem.h" />
+    <ClInclude Include="util\to_vector.h" />
+    <ClInclude Include="util\xml_tree.h" />
+    <ClInclude Include="util\print_manager.h" />
+    <ClInclude Include="util\singleton.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CityServer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon\city_server.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Settings>
+  <Net>
+    <IP value="127.0.0.1" />
+    <Port value="27000" />
+    <Ping min="0" max="0" />
+    <ShowClients flag="1" />
+  </Net>
+  <City>
+    <Seed value="-1" />
+    <Size width="30" height="30" />
+    <Cars count="50" />
+    <HydrantProbability value="0.3" />
+    <RoofProbability value="0.5" />
+  </City>
+</Settings>
